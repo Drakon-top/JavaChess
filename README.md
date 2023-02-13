@@ -8,6 +8,6 @@
 
 `HumanPlayer` реализует интерфейс `Player` и отвечает за ход игрока
 
-`ChessGame` класс отвечающий за совершение ходов на `ChessBoard`
+`ChessGame` класс отвечающий за совершение ходов на `ChessBoard` и взаимодействует с `Player`
 
-`ChessBoard` реализует интерфейс `Board`
+`ChessBoard` реализует интерфейс `Board` и совершает ходы переданные `ChessGame`
